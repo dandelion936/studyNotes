@@ -14,8 +14,9 @@
   5.无状态：HTTP协议是无状态协议。无状态是指协议对于事务处理没有记忆能力。缺少状态意味着如果后续处理需要前面的信息，则它必须重传，这样可能导致每次连接传送的数据量增大。另一方面，在服务器不需要先前信息时它的应答就较快。  
 ### 一、URL
  HTTP使用统一资源标识符`(UniformResourceIdentifiers,URI)`来传输数据和建立连接。URL是一种特殊类型的URI，包含了用于查找某个资源的足够的信息
-  URL,全称是UniformResourceLocator,中文叫统一资源定位符,是互联网上用来标识某一处资源的地址。以下面这个URL为例，介绍下普通URL的各部分组成：
-  `http://www.aspxfans.com:8080/news/index.asp?boardID=5&ID=24618&page=1#name`
+ URL,全称是UniformResourceLocator,中文叫统一资源定位符,是互联网上用来标识某一处资源的地址。  
+ 以下面这个URL为例，介绍下普通URL的各部分组成：  
+ `http://www.aspxfans.com:8080/news/index.asp?boardID=5&ID=24618&page=1#name`
  格式如下：  
  http://host[":"port][abs_path]
  
@@ -68,13 +69,15 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 ![http request](picture/HTTPRequest.png)
 
 1. 请求行以方法符号开头，空格分开，然后是请求的URI和协议版本号  
-> ######格式：Method Request-URI HTTP-Version CRLF
+> 格式：Method Request-URI HTTP-Version CRLF
+
     其中Method表示请求方法；
     Request-URI是一个统一资源标识符；
     HTTP-Version表示请求的HTTP协议版本；
     CRLF表示回车和换行（除了作为结尾的CRLF外，不允许出现单独的CR或LF字符）。
 
-> ###### GIT请求例子：  
+> GIT请求例子：
+  
     GET /562f25980001b1b106000338.jpg HTTP/1.1  
     Host    img.mukewang.com   
     User-Agent    Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36   
@@ -100,7 +103,7 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 >第四部分：请求数据也叫主体，可以添加任意的其他数据。
 
     这个例子的请求数据为空。
->######POST请求例子：
+>POST请求例子：
 
     POST / HTTP1.1
     Host:www.wrox.com
@@ -118,7 +121,8 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 
 >第四部分：请求数据，第八行。
 
-> ######请求方法（所有方法全为大写）有多种，各个方法的解释如下：
+> 请求方法（所有方法全为大写）有多种，各个方法的解释如下：
+
     + GET     请求获取Request-URI所标识的资源
     + POST    在Request-URI所标识的资源后附加新的数据
     + HEAD    请求获取由Request-URI所标识的资源的响应消息报头
@@ -139,7 +143,8 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 
 ![HTTP Response](picture/HTTPResponse.jpg)
 
-> ######例子：
+> 例子：
+
     HTTP/1.1 200 OK
     Date: Fri, 22 May 2009 06:07:21 GMT
     Content-Type: text/html; charset=UTF-8
