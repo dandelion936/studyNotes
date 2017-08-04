@@ -1,7 +1,7 @@
 # http协议   
 ### 介绍
  HTTP协议是Hyper Text Transfer Protocol（超文本传输协议）的缩写,
-是用于从万维网（WWW:World Wide Web服务器传输超文本到本地浏览器的传送协议。
+是用于从万维网(WWW:World Wide Web)服务器传输超文本到本地浏览器的传送协议。
 
 + http（超文本传输协议）是一个基于请求与响应模式的、无状态的、应用层的协议 
 
@@ -16,7 +16,7 @@
  HTTP使用统一资源标识符`(UniformResourceIdentifiers,URI)`来传输数据和建立连接。URL是一种特殊类型的URI，包含了用于查找某个资源的足够的信息
  URL,全称是UniformResourceLocator,中文叫统一资源定位符,是互联网上用来标识某一处资源的地址。  
  以下面这个URL为例，介绍下普通URL的各部分组成：  
- `http://www.aspxfans.com:8080/news/index.asp?boardID=5&ID=24618&page=1#name`
+ `http://www.aspxfans.com:8080/news/index.asp?boardID=5&ID=24618&page=1#name`  
  格式如下：  
  http://host[":"port][abs_path]
  
@@ -66,7 +66,7 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 ### 二、请求  
 >http请求由请求行（request-line）、请求头部（header）、空行和请求数据四个部分组成。
 
-![http request](picture/HTTPRequest.png)
+![http request](../picture/HTTPRequest.png)
 
 1. 请求行以方法符号开头，空格分开，然后是请求的URI和协议版本号  
 > 格式：Method Request-URI HTTP-Version CRLF
@@ -141,7 +141,7 @@ URL是Internet上用来描述信息资源的字符串，主要用在各种WWW客
 
 >HTTP响应也由四个部分组成，分别是：状态行、消息报头、空行和响应正文。
 
-![HTTP Response](picture/HTTPResponse.jpg)
+![HTTP Response](../picture/HTTPResponse.jpg)
 
 > 例子：
 
