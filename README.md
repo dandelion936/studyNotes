@@ -1,4 +1,4 @@
-# 一些学习笔记  
+# 学习笔记，主要记录学习的知识点和遇到问题  
 >主要是前端一些方面的学习笔记，以后会逐渐完善  
 ##### 目前的目录结构
 1. [JavaScript](https://github.com/dandelion936/studyNotes/tree/master/JavaScript)
