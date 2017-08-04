@@ -1,6 +1,5 @@
 # Arguments对象作用深度研究
 
-S
 
 > 每个函数都会有一个Arguments对象实例arguments，它引用着函数的实参，可以用数组下标的方式"[]"引用arguments的元素。arguments.length为函数实参个数，arguments.callee引用函数自身。
 
