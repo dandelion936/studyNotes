@@ -1,8 +1,5 @@
 # JS中的call、apply、bind方法详解
 
-@(github.com/tsrot)[call|apply| bind]
-
-地址：http://blog.xieliqun.com/2016/08/10/call-apply-bind/
 
 > call()、apply()、bind()都是函数对象的一个方法，它们的作用都是改变函数的调用对象。它的使用极大的简化了代码的调用。
 

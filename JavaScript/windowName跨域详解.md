@@ -1,8 +1,5 @@
 # window.name跨域详解
 
-@(github.com/tsrot)[window.name|跨域]
-
-地址：http://blog.xieliqun.com/2016/08/25/windowName-cross-domain/
 
 >  window.name属性的神奇之处在于name 值在不同的页面（甚至不同域名）加载后依旧存在（如果没修改则值不会变化），并且可以支持非常长的 name 值（2MB）。并且window.name很方便。
 

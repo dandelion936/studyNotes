@@ -1,9 +1,5 @@
 # JS的原型和原型链
 
-@(github.com/tsrot)[原型|原型链]
-
-地址：http://blog.xieliqun.com/2016/08/20/prototype/
-
 > 在JavaScript的使用过程中，我们经常会遇到prototype，可能了解一点，它是一个对象的原型，用来做原型继承的。这样去理解就有点不准确了，今天就让我们深入的去了解它。
 
 

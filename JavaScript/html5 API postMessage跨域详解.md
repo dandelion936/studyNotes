@@ -1,8 +1,5 @@
 # html5 API postMessage跨域详解
 
-@(我的第一个笔记本)[postMessage, 跨域]
-
-地址：http://blog.xieliqun.com/2016/08/25/postMessage-cross-domain/
 
 > window.postMessage(message,targetOrigin) 方法是html5新引进的特性，可以使用它来向其它的window对象发送消息，无论这个window对象是属于同源或不同源，目前IE8+、FireFox、Chrome、Opera等浏览器都已经支持window.postMessage方法。
 
