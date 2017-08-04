@@ -1,4 +1,10 @@
 #JavaScript学习总结
+
+> 返回 
+ 
+1.[后退到根目录](https://github.com/dandelion936/studyNotes/blob/master/README.md)  
+2.[后退到JavaScript目录](https://github.com/dandelion936/studyNotes/blob/master/JavaScript/README.md)
+
 >目录结构：  
 
 1.[AJAX工作原理](https://github.com/dandelion936/studyNotes/blob/master/JavaScript/%E9%80%9A%E4%BF%A1/AJAX%E5%B7%A5%E4%BD%9C%E5%8E%9F%E7%90%86.md)  

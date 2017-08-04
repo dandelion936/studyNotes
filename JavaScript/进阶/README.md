@@ -1,4 +1,10 @@
 #JavaScript学习总结
+
+> 返回 
+ 
+1.[后退到根目录](https://github.com/dandelion936/studyNotes/blob/master/README.md)  
+2.[后退到JavaScript目录](https://github.com/dandelion936/studyNotes/blob/master/JavaScript/README.md)
+
 >目录结构：  
 
 1.[深入了解JavaScript，从作用域链开始（1）](https://github.com/dandelion936/studyNotes/blob/master/JavaScript/%E8%BF%9B%E9%98%B6/%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3JavaScript%EF%BC%8C%E4%BB%8E%E4%BD%9C%E7%94%A8%E5%9F%9F%E9%93%BE%E5%BC%80%E5%A7%8B%EF%BC%881%EF%BC%89.md)  

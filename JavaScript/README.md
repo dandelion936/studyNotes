@@ -1,4 +1,8 @@
 #JavaScript学习总结
+> 返回 
+ 
+1.[后退到根目录](https://github.com/dandelion936/studyNotes/blob/master/README.md)  
+
 >目录结构：  
 
 1.[基础](https://github.com/dandelion936/studyNotes/blob/master/JavaScript/%E5%9F%BA%E7%A1%80/README.md)  
