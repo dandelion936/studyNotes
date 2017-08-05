@@ -2,7 +2,7 @@
  
 >  前端是起点，但不是终点。   
  
-##目前的目录结构   
+## 目前的目录结构   
 
 
 1. [JavaScript](https://github.com/dandelion936/studyNotes/tree/master/JavaScript/README.md)
