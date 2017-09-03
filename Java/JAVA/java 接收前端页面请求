@@ -1,0 +1,4 @@
+前端的请求和后端进行交互  
+http://www.cnblogs.com/huhuuu/p/3993019.html
+注意的点：要在web.xml设置servlet：可以自己设置servlet的资源名字， 然后写上对应的servlet类名
+servlet-mapping：自己的servlet与资源的映射关系
